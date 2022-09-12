@@ -17,5 +17,4 @@ s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u'||s[i]=='A'||s[i]=='E'||s[i]=='I'||s[i
  } }
  
  printf("vowels = %d\n",vowels);
- printf("consonants = %d\n",consonants);
  return 0;}
