@@ -1,6 +1,7 @@
-#include <st
+#include <stdio.h>
 
-int main() {
+int main()
+ {
     char operation;
     double n1, n2;
 
@@ -25,11 +26,7 @@ int main() {
         case '/':
             printf("%.1lf / %.1lf = %.1lf",n1, n2, n1/n2);
             break;
-
-        // operator doesn't match any case constant +, -, *, /
-        default:
-            printf("Error! operator is not correct");
     }
 
     return 0;
-}dio.h>
+}
